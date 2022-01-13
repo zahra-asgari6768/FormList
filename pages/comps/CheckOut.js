@@ -69,14 +69,14 @@ function getStepContent(step) {
   export default function CheckOut() {
     const classes = useStyles();
     const [activeStep, setActiveStep] = React.useState(0);
-  
+    const [password,setPassword] = React.useState("")
     const handleNext = (e) => {
       setActiveStep(activeStep + 1);
     };
   
     const handleBack = () => {
       setActiveStep(activeStep - 1);
-    };
+    }
 return(
     <React.Fragment>
          <CssBaseline />

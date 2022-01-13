@@ -5,6 +5,11 @@ import  TextField  from '@material-ui/core/TextField';
 
             
 export default function FormUserDetails() {
+   const [mobile,setmobile] = React.useState("")
+  // const [password,setPassword] = React.useState("")
+  // handleMobile =(){
+  // set
+  // }
     return (
         <React.Fragment>
             <Grid container spacing={3}>
@@ -26,6 +31,7 @@ export default function FormUserDetails() {
             label="شماره تلفن همراه"
             fullWidth
             autoComplete="shipping address-line1"
+           
           />
         </Grid>
             </Grid>
